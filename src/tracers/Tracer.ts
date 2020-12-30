@@ -18,7 +18,12 @@ export abstract class Tracer {
     if (release) {
       return this.build(release);
     }
-    const {data} = await GitHubApi.getLatestRelease('algorithm-visualizer', `tracers.${this.lang}`);
+    
+    // const {data} = await GitHubApi.getLatestRelease('algorithm-visualizer', `tracers.${this.lang}`);
+    
+    // Todo: remove this when merge to upstream
+    const {data} = await GitHubApi.getLatestRelease('phuang07', `tracers.${this.lang}`);
+
     return this.build(data);
   }
 }

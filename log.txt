@@ -1,0 +1,35 @@
+
+> @algorithm-visualizer/server@2.0.0 watch /Users/ray/git_repos/algoviz/server
+> NODE_ENV=development NODE_PATH=src ts-node-dev --respawn --ignore-watch node_modules --no-notify src
+
+Ignore watch: [ 'node_modules' ]
+Using ts-node version 8.2.0, typescript version 3.5.1
+I am here
+http: listening on port 8080
+HEAD is now at 2881b3f Integer partition (#24)
+[INFO] 15:16:15 Restarting: /Users/ray/git_repos/algoviz/server/src/Server.ts has been modified
+Using ts-node version 8.2.0, typescript version 3.5.1
+[Function: router] {
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: []
+}
+http: listening on port 8080
+HEAD is now at 2881b3f Integer partition (#24)
+[0mPOST /api/tracers/python [33m404 [0m3.366 ms - 158[0m
+[0mGET /api/algorithms [32m200 [0m2.499 ms - -[0m
+[0mGET /api/algorithms/uncategorized/python [32m200 [0m1.012 ms - 296[0m
+[0mPOST /api/tracers/py [33m404 [0m13.734 ms - 154[0m
+[0mPOST /api/tracers/py [33m404 [0m0.817 ms - 154[0m
+[0mPOST /api/tracers/py [33m404 [0m0.572 ms - 154[0m
+[0mPOST /api/tracers/python [33m404 [0m0.468 ms - 158[0m
+[0mPOST /api/tracers/py [33m404 [0m0.452 ms - 154[0m
+[0mPOST /api/tracers/py [33m404 [0m0.440 ms - 154[0m
+[INFO] 15:27:59 Restarting: /Users/ray/git_repos/algoviz/server/src/Server.ts has been modified
+Using ts-node version 8.2.0, typescript version 3.5.1
+[ERROR] 15:27:59 ⨯ Unable to compile TypeScript:
+src/Server.ts(31,20): error TS2345: Argument of type 'void' is not assignable to parameter of type 'Application'.
+
